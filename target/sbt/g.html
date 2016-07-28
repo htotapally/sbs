@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Java Developer Applicant Evaluation Project submitted to SBS by Hara Totapally</title>
+
+	<script src="./js/jquery-3.1.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+ 
+ 	<script src="./js/jqGrid/i18n/grid.locale-en.js"></script>
+	<script src="./js/jqGrid/jquery.jqGrid.min.js"></script>
+ 
+ 
+    <script src="./js/backbone/underscore-min.js"></script>
+	<script src="./js/backbone/backbone-min.js"></script>
+       
+    <script src="./js/sbs/models/EmployeeModel.js"></script>
+    <script src="./js/sbs/views/EmployeeView.js"></script>
+
+    <script src="./js/sbs/models/EmployeeSearchModel.js"></script>
+    <script src="./js/sbs/views/EmployeeSearchView.js"></script>
+  
+    <script src="./js/sbs/models/EmployeeDeleteModel.js"></script>
+    <script src="./js/sbs/views/EmployeeDeleteView.js"></script>
+    
+    <script src="./js/sbs/models/EmployeeUpdateModel.js"></script>
+    <script src="./js/sbs/views/EmployeeUpdateView.js"></script>
+        
+    <link href="css/sbt.css" rel="stylesheet"/>
+	<link href="css/jqGrid/ui.jqgrid.css" rel="stylesheet"/>
+    
+  
+</head>
+
+
+<body>
+
+<header>
+	<h2>Java Developer Applicant Evaluation Project submitted to SBT</h2>
+	<p>Hara Totapally
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<nav>
+	<ul>
+		<li>
+			<a href='javascript:loadContent("./test.html");'>Home &nbsp;</a>
+		</li>
+		
+		<li>
+      		<a href='javascript:loadContent("./create.html");'>Create &nbsp;</a>
+		</li>
+		
+		<li>
+      		<a href='javascript:loadContent("./read.html");'>Read &nbsp;</a>
+		</li>
+		
+		<li>
+      		<a href='javascript:loadContent("./update.html");'>Update&nbsp;</a>
+		</li>
+		
+
+		<li><a href='javascript:loadContent("./delete.html");'>Delete&nbsp;</a>
+		</li>
+
+		<li><a href='javascript:loadContent("./help.html");'>Help&nbsp;</a>
+		</li>
+	</ul>
+</nav>
+
+
+<div id='content'>
+	<br>
+	
+</div>
+
+<div id='dialog' style='display: none'>
+</div>
+
+<footer>&copy; Copyright 2016 &nbsp; Hara Totapally</footer>
+
+  	<script>
+		$(document).ready(function () {
+			loadContent('read.html');
+		});
+		
+		function loadContent(url) {
+			$("#content").load(url, function() {
+				return;
+			});
+		}
+		
+	</script>
+
+</body>
+</html>

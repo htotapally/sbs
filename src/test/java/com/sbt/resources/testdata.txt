@@ -1,0 +1,39 @@
+# First Name
+firstName = Hara
+
+# Last Name
+lastName = Totapally
+
+# Middle Initial
+middleInitial = G
+
+# Email Address
+emailAddress = htotapally@yahoo.com
+
+# Phone Number
+phoneNumber = 610-450-6172
+
+# Position Category (Indirect, Direct, Program Manager, Director, Executive)
+position = INDIRECT
+
+# Date Hired
+dateHired = 10/26/2014
+
+# Address 1
+address1 = 23977 Lavender Meadow Pl
+
+# Address 2
+address2 = 
+
+# City
+city = Ashburn
+
+# State
+state = VA
+
+
+# Zip Code
+zipCode = 20148
+
+# Active Flag
+activeFlag = ACTIVE
